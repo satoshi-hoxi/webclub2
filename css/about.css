@@ -1,0 +1,193 @@
+body {
+  background-color: #e3f2fd;
+}
+
+.cover {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+.cover_word {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  font-size: 40px;
+  font-style: italic;
+  color: #000;
+}
+
+/*标语*/
+
+.slogans {
+  margin: 20px 0;
+  background-color: #fff;
+  height: 150px;
+}
+
+.slogans_main {
+  width: 500px;
+  margin: 0 auto;/*宽度和margin值连用使得子类元素居中*/
+  height: 100px;
+}
+.col-md-12 {
+  top: 30px;
+  width: 500px;
+}
+.slogans_word {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1;
+  border-bottom: 3px solid;
+  display: inline;
+  padding: 0 0 15px;
+}
+
+.containers {
+  width: 1350px;
+  margin: 0 auto;
+  height: 825px;
+}
+.row {
+  margin: 20px 0;
+  height: 400px;
+}
+
+a.invert:hover, .invert a:hover {
+  color: #c5a47e;
+}
+a.invert, .invert a {
+  color: #000;
+}
+a:hover {
+  -webkit-transition: color,0.6s,ease-out;
+    -moz-transition: color,0.6s,ease-out;
+    transition: color,0.6s,ease-out;
+}
+
+.motto {
+  margin: 25px 0;
+  font-family:serif;
+  font-weight: 700;
+}
+
+.motto_word {
+  margin: 0 10px 0 12px;
+  text-align: left;
+  line-height: 30px;
+  color: #353535;
+}
+.motto_writer {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  margin: 0 15px;
+  font-size: 20px;
+  color: #c5a47e;
+}
+.person_img1 {
+  width: 300px;
+  margin: 0 0 0 50px;
+  float: left;
+}
+
+.col-md-6 {
+  float: left;
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+}
+
+.person_img2 {
+  width: 300px;
+  margin: 0 50px 0 0;
+  float: right;
+}
+
+.col-md-3 {
+  float: right;
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  margin: 0 0 0 10px;
+}
+
+.conclusion_img {
+  width: 1280px;
+  margin: 20px auto;
+  height: 320px;
+  background-color: #fff;
+}
+
+
+.conclusion_img_fore {
+  width: 300px;
+  height: 320px;
+  margin: 0 10px;
+  padding: 10px 0;
+  float: left;
+  overflow:hidden;
+}
+
+.epliogue {
+  width: 1280px;
+  height: 180px;
+  margin: 10px auto;
+  background-color: #fff;
+}
+.epliogue_word {
+  width: 1000px;
+  height: 100px;
+  margin: 20px auto;
+  padding: 20px 0;
+}
+.epliogue_word_line {
+  text-align: center;
+  font-size: 25px;
+}
+
+.epliogue_hover {
+  width: 101px;
+  height: 45px;
+  margin: 10px auto;
+}
+.btn {
+  background-color: #1b92f4;
+  border: 3px solid #0a70e9;
+  text-align: center;
+  padding: 10px 20px;
+  color: #fff;
+  display:inline-block;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.word-down {
+  color: #fff;
+  width:100%;
+  background-color: rgba(0,0,0,0.6);
+  position: relative;;
+  top: -60%;
+  left: 100%;
+  opacity: 0;
+  transition-duration: 0.6s;
+  text-align: center;
+}
+
+.author {
+  background-color: rgba(0,0,0,0.6);
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  position: relative;
+  bottom: 140px;
+  left: 50%;
+  margin-left: -40px;
+  text-align: center;
+  padding-top: 30px;
+  color: #fff;
+  opacity: 0;
+  transform: rotate(180deg);
+  transition-duration: 0.6s;
+}
